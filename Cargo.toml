@@ -1,0 +1,9 @@
+[package]
+name = "chip8-sdl"
+version = "0.1.0"
+authors = ["Joel Schneider <joel.schneider@webascender.com>"]
+edition = "2018"
+
+[dependencies]
+chip8 = { git = "https://github.com/jmschneider/rust-chip8" }
+sdl2 = "0.32.2"
